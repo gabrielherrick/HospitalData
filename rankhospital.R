@@ -60,3 +60,6 @@ rankhospital <- function (state, outcome, num=1){
   
   
 }
+
+  # Example use: 
+  # rankhospital("OH", "heart attack", "worst")
