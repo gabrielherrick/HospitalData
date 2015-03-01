@@ -1,4 +1,2 @@
 # rprog-data-ProgAssignment3-data
-Programming assignment 3 for R programming course. I created best.R to find the best hospital given a State and one of 
-three medical outcomes. The function “best” reads in the *.csv of outcomes, checks the validity of arguments, selects 
-the right data, and outputs the hospital with the minimum mortality in the selected state for the selected medical condition.
+This repo contains three functions that query a dataset and return requested information in a tidy format. All three draw from the outcome-of-care-measures.csv dataset. "best.R" returns the best hospital in a given state for a given outcome. "rankhospital.R" retuns the hospital in a given state of a given rank, and "rankall.R" returns the nth best hospital for every state in a given outcome. 
